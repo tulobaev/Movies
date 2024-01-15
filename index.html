@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movies</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <div id="logo">
+        <h1>Movies</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">Главная</a></li>
+          <li><a href="#">Фильмы</a></li>
+          <li><a href="#">Сериалы</a></li>
+          <li><a href="#">Контакты</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="hero">
+      <div class="container">
+        <div class="hero">
+          <div class="hero-block">
+            <h3>Добавить Фильм</h3>
+            <input class="Name" type="text" placeholder="Name" />
+            <input class="Year" type="text" placeholder="Age" />
+            <input class="InputImg" type="text" placeholder="IMG URL" />
+            <input
+              class="InputVidio"
+              type="text"
+              placeholder="Your video link"
+            />
+
+            <button class="btn4">Добавить фильм</button>
+          </div>
+
+          <div class="hero_edit_block">
+            <div class="hero-Edit">
+              <div class="hero-deleta">
+                <button class="btn_icon">
+                  <ion-icon name="close-outline"></ion-icon>
+                </button>
+              </div>
+              <h3>Изменить фильм</h3>
+              <input class="inpEditOne" type="text" placeholder="Name" />
+              <input class="inpEditTwo" type="text" placeholder="Age" />
+              <input class="inpEditThree" type="text" placeholder="IMG URL" />
+              <input
+                class="inpEditFour"
+                type="text"
+                placeholder="Your video link"
+              />
+
+              <button class="btn5">Изменить фильм</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="list">
+      <div class="container">
+        <div class="list"></div>
+      </div>
+    </section>
+    <div class="if">
+      <div class="hero-v">
+        <button class="btn_icons">
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+      </div>
+      <button class="btnX">x</button>
+      <iframe
+        class="iframe"
+        width="1280"
+        height="720"
+        title=""
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
